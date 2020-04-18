@@ -15,3 +15,37 @@
         margin-top: 67px;
     }
 }
+
+@media (max-width: 767px) {
+    .button {
+        width: 120px;
+        height: 20px;
+        font-size: 10px;
+        &_main {
+            width: 250px;
+            height: 35px;
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .button {
+        &_main {
+            margin-top: 40px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .button {
+        width: 200px;
+        height: 35px;
+        font-size: 12px;
+        &_main {
+            width: 250px;
+            height: 35px;
+            font-size: 14px;
+        }
+    }
+}
