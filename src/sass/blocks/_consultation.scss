@@ -1,0 +1,39 @@
+.consultation {
+    min-height: 680px;
+    padding: 100px 0 92px 0;
+    background: url(../img/choise_bcg.jpg/) center (center/cover) no-repeat;
+    &__descr {
+        margin: 80px 0 35px 0;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 991px) {
+    .consultation {
+        min-height: 600px;
+        padding: 50px 10px 40px 10px;
+        &__descr {
+            margin: 30px 0 25px 0;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .consultation {
+        min-height: 500px;
+        padding: 30px 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .consultation {
+        min-height: 500px;
+        padding: 25px 10px;
+        &__descr {
+            font-size: 18px;
+            margin: 15px 0;
+        }
+    }
+}
